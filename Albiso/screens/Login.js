@@ -21,7 +21,7 @@ const Login = ({ navigation }) => {
   
   const handleLogin = async (values) => {
     try { 
-      const url = "http://192.168.1.5:8000/api/v1/login";
+      const url = "http://192.168.18.4:8000/api/v1/login";
       const result = await Fetch.postData(url, values);
 
       if (result.message != null) {
