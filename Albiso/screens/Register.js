@@ -40,7 +40,7 @@ const Register = ({ navigation }) => {
         return false;
       }
 
-      const url = "http://192.168.1.5:8000/api/v1/register";
+      const url = "http://192.168.18.4:8000/api/v1/register";
       const data = {
         name,
         email,
